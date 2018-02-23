@@ -4,7 +4,7 @@ A simple script to check BAD LS from muon DPG DCS flags
 ## Install:
 ```
 cmsenv CMSSW_10_0_2
-cd CMSSW_10_0_2
+cd CMSSW_10_0_2/src
 cmsrel
 git clone https://github.com/battibass/dpgByLumiFlag.git
 cd dpgByLumiFlag
