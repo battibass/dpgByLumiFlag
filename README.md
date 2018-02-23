@@ -11,7 +11,7 @@ cd dpgByLumiFlag
 git clone https://github.com/cms-DQM/certTools
 ```
 
-## Run
+## Run:
 ```
 python dpgByLumiFlag.py --minRun=304911 --maxRun=306462
 
