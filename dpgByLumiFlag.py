@@ -61,7 +61,7 @@ for tag,flags in flags_map.iteritems() :
 
 
 print "\n\n\n***************************************"
-print "List of luminosity losses due to muon DPGs DCS flags ONLY:"
+print "List of luminosity losses exclusively due to muon DPGs DCS flags:"
 all_file_name = dir_name + "/cert_" +str(args.minRun) + "-" + str(args.maxRun)+ "_all.json"
 
 for tag in json_to_compare :
