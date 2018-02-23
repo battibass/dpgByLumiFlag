@@ -6,7 +6,7 @@ A simple script to check BAD LS from muon DPG DCS flags
 cmsenv CMSSW_10_0_2
 cd CMSSW_10_0_2
 cmsrel
-git clone git@github.com:battibass/dpgByLumiFlag.git
+git clone https://github.com/battibass/dpgByLumiFlag.git
 cd dpgByLumiFlag
 git clone git clone https://github.com/cms-DQM/certTools
 ```
@@ -18,7 +18,7 @@ python dpgByLumiFlag.py --minRun=304911 --maxRun=306462
 [...] lines from the creation of JSON files
 
 ***************************************
-List of luminosity losses due to muon DPGs DCS flags ONLY:
+List of luminosity losses exlusively due to muon DPGs DCS flags:
 
 DT :
 {"306418": [[34, 34]]}
