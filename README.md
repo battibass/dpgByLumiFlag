@@ -8,7 +8,6 @@ cd CMSSW_10_1_5/src
 cmsrel
 git clone https://github.com/battibass/dpgByLumiFlag.git
 cd dpgByLumiFlag
-git clone https://github.com/cms-DQM/certTools
 ```
 
 ## Run:
